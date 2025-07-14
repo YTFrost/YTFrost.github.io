@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Brigade builder</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script src="builder.js" defer></script>
+  </head>
+  <body>
+
+    <header>
+      <label for="brigadeTypeSelect">Brigade Type:</label>
+      <select name="brigadeType" id="brigadeTypeSelect">
+        <option value="reconnaissance">Reconnaissance Brigade</option>
+        <option value="armored">Armored Brigade</option>
+        <option value="artillery">Artillery Brigade</option>
+        <option value="airborne">Airborne Brigade</option>
+      </select>
+      <button onclick="newBrigade()">New Brigade</button>
+      <button onclick="clearBrigade()">Clear</button>
+    </header>
+
+    <hr/>
+
+    <main id="mainHierarchy">
+    </main>
+
+  </body>
+</html>

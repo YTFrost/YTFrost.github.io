@@ -1,0 +1,60 @@
+main {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+}
+div.unitContainer{
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	margin: 2px 0px;
+}
+main#mainHierarchy > div.unitContainer {
+	align-items: center;
+}
+header.unitHeader {
+	display: flex;
+	width: fit-content;
+	margin: 2px;
+}
+p.unitName {
+	margin: 0px 4px;
+}
+img.unitImage {
+	background-color: #80e0ff;
+	border: 1px solid black;
+	width: 60px;
+	height: 40px;
+}
+img.emptyUnitImage {
+	background-color: lightgray;
+	border: 1px solid black;
+	width: 60px;
+	height: 40px;
+}
+div.unitSubordinates {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	margin: 2px;
+}
+div.unitList {
+	flex: auto;
+	min-width: 60px;
+	min-height: 40px;
+	margin: 2px;
+}
+input.newUnitName, select.unitSelect {
+	height: fit-content;
+	width: fit-content;
+	margin: 0px 4px;
+}
+p.unitLimit {
+	color: gray;
+	font-size: 0.75em;
+}
+p.unitLimitMax {
+	color: red;
+}
