@@ -1,32 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Brigade builder</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <script src="builder.js" defer></script>
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <title>Poczta Uniwersytecka – Message</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    <header>
-      <label for="brigadeTypeSelect">Brigade Type:</label>
-      <select name="brigadeType" id="brigadeTypeSelect">
-        <option value="reconnaissance">Reconnaissance Brigade</option>
-        <option value="armored">Armored Brigade</option>
-        <option value="artillery">Artillery Brigade</option>
-        <option value="airborne">Airborne Brigade</option>
-      </select>
-      <button onclick="newBrigade()">New Brigade</button>
-      <button onclick="clearBrigade()">Clear</button>
-    </header>
+  <div class="portal-header">
+    <span class="breadcrumb">Poczta Uniwersytecka &gt; Skrzynka &gt; Wiadomość</span>
+  </div>
 
-    <hr/>
+  <div class="mail-container">
 
-    <main id="mainHierarchy">
-    </main>
+    <div class="mail-toolbar">
+      <button>Odpowiedz</button>
+      <button>Przekaż</button>
+      <button>Zarchiwizuj</button>
+    </div>
 
-  </body>
+    <div class="mail-metadata">
+      <div><span class="label">Od:</span> Prof. Weronika Borska &lt;werbor@intra.uni.edu&gt;</div>
+      <div><span class="label">Do:</span> Ty oraz 47 innych</div>
+      <div><span class="label">Data:</span> Sob. 7 Luty 2026 r. - 09:14:37</div>
+      <div><span class="label">Temat:</span> Nieobowiązkowa wycieczka badawcza do Hawany</div>
+    </div>
+
+    <hr>
+
+    <div class="mail-body">
+      <p>Szanowni Państwo,</p>
+
+      <p>
+        Zwracam się z do Państwa z ofertą wycieczki badawczej do Hawany, na początku semestru letniego. Wycieczka jest oczywiście nieobowiązkowa, a nieobecności na zajęciach będą usprawiedliwione przez Dziekanat. Możliwość wyjazdu mają okazję studenci drugiego stopnia oraz studiów doktorskich kierunków Biologia, Medycyna, Historia, Chemia Medyczna, Biotechnologia, Etnologia i Antropologia, Bioinformatyka oraz Archeologia.
+      </p>
+
+      <p>
+        Znajomość języków hiszpańskiego i angielskiego nie jest wymagana, choć zdecydowanie zalecana. Wycieczka będzie organizowana przez dr Lagos z Uniwersytetu w Barcelonie oraz będzie trwała do 21 dni. Nocleg będzie opłacony, lecz wyżywienie niestety nie (zalecam przygotować się wcześniej i zakupić trochę Kubańskich Peso). Będziemy poruszać zagadnienia wpływu lokalnych gatunków świerszczy na zdrowie obywateli miasta.
+      </p>
+
+      <p>
+        Zainteresowanych proszę o wypełnienie załączonego formularza. Miejsca są ograniczone.
+      </p>
+
+      <p>
+        Szczegóły wycieczki oraz organizacji będą przekazywane zainteresowanym po zebraniu pełnej grupy.
+      </p>
+
+      <p>Z poważaniem,<br>
+      Weronika</p>
+
+      <div class="signature">
+        <p>
+          Profesor Weronika Borska<br>
+          Profesor Wydziału Nauk Medycznych<br>
+          werbor@intra.uni.edu
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+</body>
 </html>
