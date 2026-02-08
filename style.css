@@ -64,3 +64,33 @@ hr {
   font-size: 13px;
   color: #444;
 }
+
+/* Attachments */
+
+.attachments {
+  font-size: 13px;
+}
+
+.attachments-title {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.attachments-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.attachments-list li {
+  margin: 4px 0;
+}
+
+.attachments-list a {
+  color: #1a4fa3;
+  text-decoration: none;
+}
+
+.attachments-list a:hover {
+  text-decoration: underline;
+}
